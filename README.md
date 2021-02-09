@@ -4,7 +4,7 @@ but I cannot warranty that it fully "works everywhere" yet. Join us on Gitter (b
 # drf-nested-routers
 
 [![Join the chat at https://gitter.im/alanjds/drf-nested-routers](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/alanjds/drf-nested-routers?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://github.com/alanjds/drf-nested-routers/workflows/CI/badge.svg)](https://github.com/alanjds/drf-nested-routers/actions?query=workflow%3ACI+branch%3Amaster)
+[![Build Status](https://github.com/jurkov/drf-nested-routers/workflows/CI/badge.svg)](https://github.com/alanjds/drf-nested-routers/actions?query=workflow%3ACI+branch%3Amaster)
 
 This package provides routers and fields to create nested resources in the [Django Rest Framework](http://django-rest-framework.org/)
 
@@ -18,7 +18,7 @@ exist without a domain, so you need it "nested" inside the domain.
 ## Requirements & Compatibility
 
 -  Python (3.6, 3.7, 3.8, 3.9)
--  Django (2.2, 3.0, 3.1)
+-  Django (1.11, 2.2, 3.0, 3.1)
 -  Django REST Framework (3.11)
 
 It may work with lower versions, but since the release **0.92.1** is no more
